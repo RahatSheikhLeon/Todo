@@ -1,0 +1,97 @@
+/* base  */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+section {
+    padding: 50px 12px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.content-border {
+    border: 1px solid #8e84a9a3;
+}
+
+.todo-wrapper {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+li{
+    padding: 10px; border: 1px solid #d5d5d5; border-radius: 5px; margin-bottom: 5px;
+    
+}
+li button{
+    color: red;
+    text-align: right;
+    margin-left: 80%;
+    padding: 0 20px;
+}
+.black{
+    background-color: black !important;
+    color: #fff;
+}
+.white{
+    background-color: white !important;
+}
+/* todo-header */
+
+.todo-wrapper {
+    text-align: right;
+}
+
+/* todo-body */
+.todo-body {
+    min-height: 300px;
+    text-align: left;
+}
+
+/* footer */
+.todo-footer{
+    text-align: left;
+}
+#dataInput{
+    width: calc(100% - 80px);
+    background-color: white;
+    padding: 14px 12px;
+    border-radius: 6px;
+}
+#dataGet{
+  height: 40px;
+  width: 70px;
+  text-align: center;
+  background-color: red;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+}
